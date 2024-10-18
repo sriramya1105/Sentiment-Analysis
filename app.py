@@ -35,7 +35,7 @@ def make_round_image(image_path):
 st.sidebar.header("Sentiment Analysis Creator")
 
 # Display creator's photo
-image_path = 'assets/profile_pic.jpg'  # Replace with the actual path to your photo
+image_path = 'Assets/profile_pic.jpg'  # Replace with the actual path to your photo
 rounded_image = make_round_image(image_path)
 st.sidebar.image(rounded_image, caption="Ramya.c", width=150)
 
