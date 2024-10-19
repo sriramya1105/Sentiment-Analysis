@@ -141,12 +141,12 @@ if st.button("Predict"):
 
             # Image mapping for each emotion (use appropriate paths)
             image_mapping = {
-                "Sadness": "assets/sad.jpg",
-                "Joy": "assets/joy.jpg",
-                "Love": "assets/love.jpg",
-                "Anger": "assets/anger.png",
-                "Fear": "assets/fear.jpg",
-                "Surprise": "assets/surprise.jpg"
+                "Sadness": "Assets/sad.webp",
+                "Joy": "Assets/joy.jpg",
+                "Love": "Assets/love.png",
+                "Anger": "Assets/anger.png",
+                "Fear": "Assets/scared.png",
+                "Surprise": "Assets/surprise.jpg"
             }
 
             img = load_and_resize_image(image_mapping[result_label], size=(300, 300))
