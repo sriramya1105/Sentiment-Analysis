@@ -145,7 +145,7 @@ if st.button("Predict"):
                 "Joy": "Assets/joy.jpg",
                 "Love": "Assets/love.png",
                 "Anger": "Assets/anger.png",
-                "Fear": "Assets/scared.png",
+                "Fear": "Assets/Scared.png",
                 "Surprise": "Assets/surprise.jpg"
             }
 
